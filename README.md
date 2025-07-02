@@ -27,9 +27,9 @@
 ```bash
 git clone https://github.com/yuvrajnag/Starlight-2d-runner.git
 cd Starlight-2d-runner
-python3 -m venv venv           # create venv (optional)
-source venv/bin/activate      # Windows: venv\\Scripts\\activate
-pip install -r requirements.txt
+python3 -m venv venv           # create virtual env (optional)
+source venv/bin/activate      # Windows: venv\Scripts\activate
+pip install pygame            # only dependency needed
 ```
 
 ##  How to Play
